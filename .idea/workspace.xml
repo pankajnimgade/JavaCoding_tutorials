@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2645d0-78d6-4447-80d9-cbdc8a54238a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reading_TTC_Excel/excel_files/TestOneTrain.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindCurrentDirectory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindTrainExcel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reading_TTC_Excel/Reading_TTC_Excel.iml" afterPath="$PROJECT_DIR$/Reading_TTC_Excel/Reading_TTC_Excel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sim/u/duck/test/one/Duck.java" afterPath="$PROJECT_DIR$/src/sim/u/duck/test/one/Duck.java" />
     </list>
     <ignored path="JavaCoding_tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindCurrentDirectory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindCurrentDirectory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindCurrentDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19484241">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTrainExcel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindTrainExcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38968483">
+              <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/com/pk/nimgade/Main.java" />
         <option value="$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindCurrentDirectoty.java" />
         <option value="$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindCurrentDirectory.java" />
+        <option value="$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindTrainExcel.java" />
       </list>
     </option>
   </component>
@@ -225,7 +235,7 @@
       <recent name="F:\IntelliJ Idea Projects\January\JavaCoding_tutorials\Reading_TTC_Excel\src\test\one\reading\excel" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FindTrainExcel">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.pk.nimgade.Main" />
@@ -271,6 +281,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="train.test.one.reading.excel.FindCurrentDirectory" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Reading_TTC_Excel" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindTrainExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="train.test.one.reading.excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="train.test.one.reading.excel.FindTrainExcel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -562,16 +592,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.ListItemTestDrive" />
       <item index="2" class="java.lang.String" itemvalue="Application.FindCurrentDirectory" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FindTrainExcel" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindCurrentDirectory" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ListItemTestDrive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.FindTrainExcel" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindCurrentDirectory" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ListItemTestDrive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -609,7 +641,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453440075049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="checking current directory">
+      <created>1453450982760</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1453450982760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,7 +692,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Duck Code" />
     <MESSAGE value="trying to read excel sheets in this module" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to read excel sheets in this module" />
+    <MESSAGE value="checking current directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking current directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,8 +931,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindCurrentDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19484241">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reading_TTC_Excel/src/train/test/one/reading/excel/FindTrainExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38968483">
+          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
