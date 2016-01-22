@@ -2,7 +2,7 @@ package com.pk.nimgade;
 
 /**
  * This is the test class to check if the configuration for the
- * project os wrking
+ * project ios working
  */
 public class Main {
 
