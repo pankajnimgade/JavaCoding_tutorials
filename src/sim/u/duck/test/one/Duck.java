@@ -11,6 +11,8 @@ public class Duck {
         TAG_CLASS_NAME = this.getClass().getSimpleName();
     }
 
+
+
     public void quack() {
         System.out.println(TAG_CLASS_NAME + " quack");
 
