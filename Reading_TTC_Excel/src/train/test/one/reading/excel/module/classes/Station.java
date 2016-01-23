@@ -6,7 +6,7 @@ package train.test.one.reading.excel.module.classes;
 public class Station {
 
     private SubwayLine subwayLine;
-    private static String stationDetails;
+    private String stationDetails;
     private String station_Name;
     private String station_ID;
     /**
@@ -54,12 +54,12 @@ public class Station {
         this.subwayLine = subwayLine;
     }
 
-    public static String getStationDetails() {
+    public String getStationDetails() {
         return stationDetails;
     }
 
-    public static void setStationDetails(String stationDetails) {
-        Station.stationDetails = stationDetails;
+    public void setStationDetails(String stationDetails) {
+        this.stationDetails = stationDetails;
     }
 
     public String getStation_Name() {
