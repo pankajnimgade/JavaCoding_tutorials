@@ -24,6 +24,7 @@ public class ListItemTestDrive {
                 + "\\Reading_TTC_Excel\\excel_files\\new_json.json");
 
         try {
+
             System.out.println("sze: " + file.length());
             FileInputStream inputStream = new FileInputStream(file);
             workbook = new XSSFWorkbook(inputStream);
