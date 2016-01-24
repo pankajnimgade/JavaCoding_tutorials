@@ -33,7 +33,8 @@ public class Station {
     private boolean washrooms;
     private boolean wi_fi_Enabled;
     private boolean pass_Vending_Machine;
-    private boolean platform_Type;
+
+    private String platform_Type;
     private String station_Overview;
     private String parking;
 
@@ -206,11 +207,11 @@ public class Station {
         this.pass_Vending_Machine = pass_Vending_Machine;
     }
 
-    public boolean isPlatform_Type() {
+    public String isPlatform_Type() {
         return platform_Type;
     }
 
-    public void setPlatform_Type(boolean platform_Type) {
+    public void setPlatform_Type(String platform_Type) {
         this.platform_Type = platform_Type;
     }
 
@@ -244,5 +245,20 @@ public class Station {
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
+    }
+
+    @Override
+    public String toString() {
+        return "station_Name: " + station_Name + "\nstation_ID: " + station_ID + "\nfirst_Train_Northbound:  " + first_Train_Northbound +
+                "\nfirst_Train_Southbound: " + first_Train_Southbound + "\nlast_Train_Northbound: " + last_Train_Northbound +
+                "\nlast_Train_Southbound: " + last_Train_Southbound + "\nfirst_Train_Eastbound: " + first_Train_Eastbound +
+                "\nfirst_Train_Westbound: " + first_Train_Westbound + "\nlast_Train_Eastbound: " + last_Train_Eastbound +
+                "\nlast_Train_Westbound: " + last_Train_Westbound + "\naccessible: " + accessible + "\npresto_Enabled: " + presto_Enabled +
+                "\ntoken_Vending_Machine: " + token_Vending_Machine +
+                "\npassenger_Pick_up_and_Drop_off: " + passenger_Pick_up_and_Drop_off +
+                "\nbicycle_Repair_Stop: " + bicycle_Repair_Stop + "\nwashrooms: " + washrooms + "\nwi_fi_Enabled: " + wi_fi_Enabled +
+                "\npass_Vending_Machine: " + pass_Vending_Machine + "\nplatform_Type: " + platform_Type +
+                "\nstation_Overview: " + station_Overview + "\nparking: " + parking + "\nlatitude: " + latitude +
+                "\nlongitude: " + longitude + " " + stationDetails;
     }
 }

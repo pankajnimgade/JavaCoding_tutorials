@@ -10,10 +10,11 @@ public class ColumnNameConstants {
     public static final String _id = "_id";
 
     //    direction of Train in Vertical direction, get the Time
-    public static final String LAST_TRAIN_SOUTHBOUND = "LAST_TRAIN_SOUTHBOUND";
+
     public static final String FIRST_TRAIN_NORTHBOUND = "FIRST_TRAIN_NORTHBOUND";
     public static final String LAST_TRAIN_NORTHBOUND = "LAST_TRAIN_NORTHBOUND";
     public static final String FIRST_TRAIN_SOUTHBOUND = "FIRST_TRAIN_SOUTHBOUND";
+    public static final String LAST_TRAIN_SOUTHBOUND = "LAST_TRAIN_SOUTHBOUND";
 
     //    direction of Train in Vertical direction, get the Time
     public static final String FIRST_TRAIN_EASTBOUND = "FIRST_TRAIN_EASTBOUND";
