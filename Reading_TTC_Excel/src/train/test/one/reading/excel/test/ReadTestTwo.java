@@ -132,74 +132,90 @@ public class ReadTestTwo {
                     }
                     break;
                 case ColumnNameConstants.PRESTO_ENABLED:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setPresto_Enabled(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.TOKEN_VENDING_MACHINE:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setToken_Vending_Machine(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.PASSENGER_PICK_UP_AND_DROP_OFF:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setPassenger_Pick_up_and_Drop_off(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.BICYCLE_REPAIR_STOP:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setBicycle_Repair_Stop(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.WASHROOMS:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setWashrooms(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.WI_FI_ENABLED:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setWi_fi_Enabled(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.PASS_VENDING_MACHINE:
-                    if (getStringFromGivenCell(cell_Current_Row) != null) {
-                        if (getStringFromGivenCell(cell_Current_Row).contentEquals("Yes")) {
+                    myCell = currentRow.getCell(current_cell_position);
+                    if (getStringFromGivenCell(myCell) != null) {
+                        if (getStringFromGivenCell(myCell).contentEquals("Yes")) {
                             station.setPass_Vending_Machine(true);
                         }
                     }
                     break;
                 case ColumnNameConstants.PLATFORM_TYPE:
-                    station.setPlatform_Type(getStringFromGivenCell(cell_Current_Row));
+                    myCell = currentRow.getCell(current_cell_position);
+                    station.setPlatform_Type(getStringFromGivenCell(myCell));
                     break;
                 case ColumnNameConstants.STATION_OVERVIEW:
-                    station.setStation_Overview(getStringFromGivenCell(cell_Current_Row));
+                    myCell = currentRow.getCell(current_cell_position);
+                    station.setStation_Overview(getStringFromGivenCell(myCell));
                     break;
                 case ColumnNameConstants.PARKING:
-                    station.setParking(getStringFromGivenCell(cell_Current_Row));
+                    myCell = currentRow.getCell(current_cell_position);
+                    station.setParking(getStringFromGivenCell(myCell));
+                    System.out.println(""+getStringFromGivenCell(myCell));
+
                     break;
                 case ColumnNameConstants.LATITUDE:
-                    station.setLatitude(getStringFromGivenCell(cell_Current_Row));
+                    myCell = currentRow.getCell(current_cell_position);
+                    station.setLatitude(getStringFromGivenCell(myCell));
+                    System.out.println(""+getStringFromGivenCell(myCell));
                     break;
                 case ColumnNameConstants.LONGITUDE:
-                    station.setLongitude(getStringFromGivenCell(cell_Current_Row));
+                    myCell = currentRow.getCell(current_cell_position);
+                    station.setLongitude(getStringFromGivenCell(myCell));
+                    System.out.println(""+getStringFromGivenCell(myCell));
                     break;
                 case ColumnNameConstants.DETAILS:
                     break;
             }
         }
-        System.out.println("Station: " + station.toString());
+//        System.out.println("Station: " + station.toString());
         System.out.println("##################################################################");
         return station;
     }
@@ -228,6 +244,8 @@ public class ReadTestTwo {
                 break;
 
         }
+        }else{
+            System.out.println("cell is null");
         }
 //        System.out.println("" + cell_Text);
         return cell_Text;
