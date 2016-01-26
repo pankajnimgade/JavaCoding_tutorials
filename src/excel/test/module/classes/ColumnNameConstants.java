@@ -1,10 +1,13 @@
 package excel.test.module.classes;
 
+import java.io.Serializable;
+
 /**
  * Created by Pankaj Nimgade on 23-01-2016.
  */
-public class ColumnNameConstants {
+public class ColumnNameConstants implements Serializable {
 
+    static final long serialVersionUID = 42L;
 
     public static final String STATION_NAME = "STATION_NAME";
     public static final String _id = "_id";

@@ -1,9 +1,13 @@
 package excel.test.module.classes;
 
+import java.io.Serializable;
+
 /**
  * Created by Pankaj Nimgade on 22-01-2016.
  */
-public class Station {
+public class Station implements Serializable {
+
+    static final long serialVersionUID = 42L;
 
     private SubwayLine subwayLine;
     private String stationDetails;
