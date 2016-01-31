@@ -5,10 +5,43 @@ package sim.u.duck.three.test;
  */
 public class Duck {
 
+    public String TAG_CLASS_NAME = "Duck";
+
+    public FlyBehavior flyBehavior;
+    public QuackBehavior quackBehavior;
+
     public Duck() {
     }
 
-    public void swim(){
-
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
     }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
+
+    public void performFly() {
+        if (flyBehavior != null) {
+            flyBehavior.fly();
+        }
+    }
+
+    public void performQuack() {
+        if (quackBehavior != null) {
+            quackBehavior.quack();
+        }
+    }
+
+    public void swim() {
+        String name = new Object() {}.getClass().getEnclosingMethod().getName();
+        System.out.println(TAG_CLASS_NAME + " " + name);
+    }
+
+    public void display() {
+        String name = new Object() {}.getClass().getEnclosingMethod().getName();
+        System.out.println(TAG_CLASS_NAME + " " + name);
+    }
+
+
 }
