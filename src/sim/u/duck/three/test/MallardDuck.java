@@ -11,11 +11,6 @@ public class MallardDuck extends Duck {
         TAG_CLASS_NAME = "MallardDuck";
     }
 
-    @Override
-    public void swim() {
-        String name = new Object() {}.getClass().getEnclosingMethod().getName();
-        System.out.println(TAG_CLASS_NAME + " " + name);
-    }
 
     @Override
     public void display() {

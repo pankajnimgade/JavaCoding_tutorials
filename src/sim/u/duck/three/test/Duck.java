@@ -33,12 +33,12 @@ public abstract class Duck {
         }
     }
 
-    public abstract void swim();
-
-    public void display() {
+    public void swim(){
         String name = new Object() {}.getClass().getEnclosingMethod().getName();
-        System.out.println(TAG_CLASS_NAME + " " + name);
+        System.out.println(TAG_CLASS_NAME + " " + name+" All ducks swim even the decoy");
     }
+
+    public abstract void display();
 
 
 }
