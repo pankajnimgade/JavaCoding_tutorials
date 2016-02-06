@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Reading_TTC_Excel/libs/gson-2.2.4.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Reading_TTC_Excel/libs/gson-2.2.4-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>
