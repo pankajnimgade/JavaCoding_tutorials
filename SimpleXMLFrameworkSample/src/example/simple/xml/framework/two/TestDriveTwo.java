@@ -20,16 +20,32 @@ public class TestDriveTwo {
             Path paths = Paths.get("");
             String project_Path = paths.toAbsolutePath().toString();
             System.out.println("" + project_Path);
-            String path = project_Path + "\\SimpleXMLFrameworkSample\\src\\example\\simple\\xml\\framework\\two\\test_one.xml";
+            String path = project_Path + "\\SimpleXMLFrameworkSample\\src\\example\\simple\\xml\\framework\\two\\test_two.xml";
             System.out.println(path);
 
+            /**
+             * Writing....
+             */
             Serializer serializer = new Persister();
             File file = new File(path);
+            if (file == null) {
+                file.createNewFile();
+            }
 
-            Configuration configuration = serializer.read(Configuration.class, file);
+            Security security = new Security();
+            security.setSsl(false);
+            security.setKeyStore("My_key_store");
 
-            System.out.println(""+configuration.getIdentity());
-            System.out.println(""+configuration.getServer().getHost());
+            Server server = new Server();
+            server.setHost("www.google.com");
+            server.setPort(8080);
+            server.setSecurity(security);
+
+            Configuration configuration = new Configuration();
+            configuration.setId(123);
+            configuration.setServer(server);
+
+            serializer.write(configuration, file);
 
 
         } catch (Exception e) {
@@ -38,57 +54,80 @@ public class TestDriveTwo {
     }
 }
 
-@Root
+@Root (name = "configuration", strict = false)
 class Configuration {
 //    State or data or knows
 
-    @Element
+    @Element (name = "server", required = false)
     private Server server;
 
-    @Attribute
+    @Attribute (name = "id",required = false)
     private int id;
 
     //    behavior or method or does
 
-    public int getIdentity() {
-        return id;
-    }
 
     public Server getServer() {
         return server;
     }
+
+    public void setServer(Server server) {
+        this.server = server;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
 
+@Root (name = "server", strict = false)
 class Server {
 
     //    State or data or knows
-    @Attribute
+    @Attribute (name = "port", required = false)
     private int port;
 
-    @Element
+    @Element (name = "host", required = false)
     private String host;
 
-    @Element
+    @Element (name = "security", required = false)
     private Security security;
 
     //    behavior or method or does
 
+
     public int getPort() {
         return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 
     public String getHost() {
         return host;
     }
 
+    public void setHost(String host) {
+        this.host = host;
+    }
+
     public Security getSecurity() {
         return security;
     }
-}
 
+    public void setSecurity(Security security) {
+        this.security = security;
+    }
+}
+@Root(name = "security",strict = false)
 class Security {
     //    state or data or knows
-    @Attribute
+    @Attribute (name = "ssl", required = false)
     private boolean ssl;
 
     @Element
@@ -103,11 +142,20 @@ class Security {
     }
 
     // behavior or method or function or does
-    public boolean isSSL() {
+
+    public boolean isSsl() {
         return ssl;
+    }
+
+    public void setSsl(boolean ssl) {
+        this.ssl = ssl;
     }
 
     public String getKeyStore() {
         return keyStore;
+    }
+
+    public void setKeyStore(String keyStore) {
+        this.keyStore = keyStore;
     }
 }
