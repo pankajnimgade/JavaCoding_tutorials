@@ -11,23 +11,53 @@ import java.util.ArrayList;
  */
 public class WriteFile {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            list.add("somename_"+i);
+            list.add("somename_" + i);
         }
 
         File file = new File("file.txt");
         try {
-            FileUtils.writeLines(file, list);
+//            FileUtils.writeLines(file, list);
 
             ArrayList<String> strings = (ArrayList<String>) FileUtils.readLines(file);
 
-            for (String single_name:strings) {
-                System.out.println(single_name);
+           ArrayList<Name> names = new ArrayList<>();
+
+            for (String single:strings) {
+                names.add(new Name(single));
+            }
+
+            for (Name single_name:names) {
+                System.out.println(single_name.getName());
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+
+}
+
+class Name {
+
+    String name;
+
+    public Name(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return this.name.equalsIgnoreCase(((Name) obj).getName());
     }
 }
