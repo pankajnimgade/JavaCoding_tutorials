@@ -14,5 +14,7 @@ public class TestDriveCharacters {
         queen.fight();
         queen.setWeaponBehavior(new BowAndArrowBehavior());
         queen.fight();
+        queen.setWeaponBehavior(new AxeBehavior());
+        queen.fight();
     }
 }
