@@ -19,7 +19,7 @@ public class WriteFile {
 
         File file = new File("file.txt");
         try {
-//            FileUtils.writeLines(file, list);
+            FileUtils.writeLines(file, list);
 
             ArrayList<String> strings = (ArrayList<String>) FileUtils.readLines(file);
 
@@ -27,6 +27,9 @@ public class WriteFile {
 
             for (String single:strings) {
                 names.add(new Name(single));
+                if (names.size() == 20) {
+                    break;
+                }
             }
 
             for (Name single_name:names) {

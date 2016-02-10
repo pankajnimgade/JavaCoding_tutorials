@@ -1,5 +1,6 @@
 package stack.overflow.test.first;
 
+import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import org.apache.commons.io.FileUtils;
 
@@ -42,8 +43,11 @@ public class ReadJSON {
             response.setUser(user);
             response.setResultCode(true);
 
-//            System.out.println((new Gson()).toJson(response));
-
+            System.out.println((new Gson()).toJson(response));
+            FileUtils.write(new File("file.txt"),(new Gson()).toJson(response));
+            String text_ = FileUtils.readFileToString(new File("file.txt"));
+            Response new_Response1 = (new Gson()).fromJson(text_,Response.class);
+            System.out.println(new_Response1.isResultCode());
 
 
         } catch (Exception e) {
@@ -55,7 +59,8 @@ public class ReadJSON {
         T responseObject = null;
 
         if (responseObject == Response.class) {
-//            responseObject = (new Gson()).fromJson(resourceResponse,  Response.class);
+            responseObject = (new Gson()).fromJson(resourceResponse, responseClass);
+            System.out.println(((Response)responseObject).isResultCode());
         }
 
         return responseObject;
