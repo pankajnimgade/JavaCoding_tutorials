@@ -1,0 +1,25 @@
+{
+    "ActionRecord":{
+        "101":{
+            "Desc":"string 1",
+            "Done":1,
+            "MaxTimes":2,
+            "Point":30,
+            "Times":4
+        },
+        "102":{
+            "Desc":"string 2",
+            "Done":1,
+            "MaxTimes":3,
+            "Point":15,
+            "Times":13
+        },
+        "103":{
+            "Desc":"string 3.",
+            "Done":1,
+            "MaxTimes":5,
+            "Point":15,
+            "Times":24
+        }
+    }
+}
