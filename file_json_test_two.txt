@@ -1,0 +1,15 @@
+{
+    "Status":1,
+    "Tag":"getAttendanceDetail",
+    "Description":"Successfully Executed",
+    "Result":[
+        {
+            "at_id":"2",
+            "admissionid":"1",
+            "class_id":"132",
+            "class_name":"IX",
+            "at_date":"2016-01-26",
+            "attendance":"A"
+        }
+    ]
+}
