@@ -7,6 +7,8 @@ import java.util.Observer;
  * Created by Pankaj Nimgade on 11-02-2016.
  */
 public class ForecastDisply extends SupperDisplay implements Observer {
+
+
     @Override
     public void update(Observable o, Object arg) {
 
