@@ -249,16 +249,29 @@ public class Station {
 
     @Override
     public String toString() {
-        return "station_Name: " + station_Name + "\nstation_ID: " + station_ID + "\nfirst_Train_Northbound:  " + first_Train_Northbound +
-                "\nfirst_Train_Southbound: " + first_Train_Southbound + "\nlast_Train_Northbound: " + last_Train_Northbound +
-                "\nlast_Train_Southbound: " + last_Train_Southbound + "\nfirst_Train_Eastbound: " + first_Train_Eastbound +
-                "\nfirst_Train_Westbound: " + first_Train_Westbound + "\nlast_Train_Eastbound: " + last_Train_Eastbound +
-                "\nlast_Train_Westbound: " + last_Train_Westbound + "\naccessible: " + accessible + "\npresto_Enabled: " + presto_Enabled +
+        return "station_Name: " + station_Name +
+                "\nstation_ID: " + station_ID +
+                "\nfirst_Train_Northbound:  " + first_Train_Northbound +
+                "\nfirst_Train_Southbound: " + first_Train_Southbound +
+                "\nlast_Train_Northbound: " + last_Train_Northbound +
+                "\nlast_Train_Southbound: " + last_Train_Southbound +
+                "\nfirst_Train_Eastbound: " + first_Train_Eastbound +
+                "\nfirst_Train_Westbound: " + first_Train_Westbound +
+                "\nlast_Train_Eastbound: " + last_Train_Eastbound +
+                "\nlast_Train_Westbound: " + last_Train_Westbound +
+                "\naccessible: " + accessible +
+                "\npresto_Enabled: " + presto_Enabled +
                 "\ntoken_Vending_Machine: " + token_Vending_Machine +
                 "\npassenger_Pick_up_and_Drop_off: " + passenger_Pick_up_and_Drop_off +
-                "\nbicycle_Repair_Stop: " + bicycle_Repair_Stop + "\nwashrooms: " + washrooms + "\nwi_fi_Enabled: " + wi_fi_Enabled +
-                "\npass_Vending_Machine: " + pass_Vending_Machine + "\nplatform_Type: " + platform_Type +
-                "\nstation_Overview: " + station_Overview + "\nparking: " + parking + "\nlatitude: " + latitude +
-                "\nlongitude: " + longitude + " " + stationDetails;
+                "\nbicycle_Repair_Stop: " + bicycle_Repair_Stop +
+                "\nwashrooms: " + washrooms +
+                "\nwi_fi_Enabled: " + wi_fi_Enabled +
+                "\npass_Vending_Machine: " + pass_Vending_Machine +
+                "\nplatform_Type: " + platform_Type +
+                "\nstation_Overview: " + station_Overview +
+                "\nparking: " + parking +
+                "\nlatitude: " + latitude +
+                "\nlongitude: " + longitude +
+                "\nstationDetails: " + stationDetails;
     }
 }

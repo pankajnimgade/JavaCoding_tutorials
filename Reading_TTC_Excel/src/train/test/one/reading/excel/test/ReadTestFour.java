@@ -1,5 +1,6 @@
 package train.test.one.reading.excel.test;
 
+import com.google.gson.Gson;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -225,9 +226,12 @@ public class ReadTestFour {
                     }
                     Cell cell = first_Row_record.getCell(23);
 //                    System.out.println("Details==>" + getStringFromGivenCell(cell));
-                    station.setLast_Train_Westbound(getStringFromGivenCell(cell));
+                    station.setStationDetails(getStringFromGivenCell(cell));
                     System.out.println("" + station.toString());
                     stations.add(station);
+
+                    String result = (new Gson()).toJson(stations);
+                    System.out.println(result);
                     System.out.println("##############################################");
                 } else {
                     first_row = false;

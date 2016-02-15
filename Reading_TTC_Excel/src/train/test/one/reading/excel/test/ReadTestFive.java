@@ -1,11 +1,13 @@
 package train.test.one.reading.excel.test;
 
 import com.google.gson.Gson;
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import train.test.one.reading.excel.encryption.test.EncryptionTestOne;
 import train.test.one.reading.excel.module.classes.ColumnNameConstants;
 import train.test.one.reading.excel.module.classes.Station;
 
@@ -23,6 +25,7 @@ import java.util.Iterator;
 public class ReadTestFive {
 
     private static final String PATH = "\\Reading_TTC_Excel\\excel_files\\TestOneTrain.xlsx";
+    private static final String PATH_ENCRYPTED_STRING = "\\Reading_TTC_Excel\\excel_files\\text.txt";
 
     public static void main(String[] args) {
 
@@ -31,6 +34,7 @@ public class ReadTestFive {
             Path paths = Paths.get("");
             String project_Path = paths.toAbsolutePath().toString();
             String excel_file_path = project_Path + PATH;
+
             File file = new File(excel_file_path);
 
             if (file != null) {
@@ -67,6 +71,17 @@ public class ReadTestFive {
 
             String result = (new Gson()).toJson(stringArrayListHashMap);
             System.out.println(result);
+
+//            System.out.println("" + EncryptionTestOne.encrypt(result));
+
+            Path paths = Paths.get("");
+            String project_Path = paths.toAbsolutePath().toString();
+            String file_path = project_Path + PATH_ENCRYPTED_STRING;
+            File encrypted_File = new File(file_path);
+            if (encrypted_File == null) {
+                encrypted_File.createNewFile();
+            }
+            FileUtils.write(encrypted_File, EncryptionTestOne.encrypt(result), false);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -245,7 +260,7 @@ public class ReadTestFive {
                 }
                 Cell cell = first_Row_record.getCell(23);
 //                    System.out.println("Details==>" + getStringFromGivenCell(cell));
-                station.setLast_Train_Westbound(getStringFromGivenCell(cell));
+                station.setStationDetails(getStringFromGivenCell(cell));
 //                System.out.println("" + station.toString());
                 stations.add(station);
 //                System.out.println("##############################################");
