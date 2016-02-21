@@ -249,7 +249,6 @@ public class ReadTestFive {
                                 break;
                             case ColumnNameConstants.DETAILS:
 //                                    System.out.println("Details:====>  " + getStringFromGivenCell(currentCell));
-
                                 break;
                         }
 

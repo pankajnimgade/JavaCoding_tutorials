@@ -1,0 +1,25 @@
+<root>
+    <station>
+        <station_id>TAPA</station_id>
+        <latitude>17.117</latitude>
+        <longitude>-61.783</longitude>
+        <distance>1</distance>
+        <xml_url>http://weather.gov/xml/current_obs/TAPA.xml</xml_url>
+    </station>
+
+    <station>
+        <station_id>TKPN</station_id>
+        <latitude>17.2</latitude>
+        <longitude>-62.583</longitude>
+        <distance>3</distance>
+        <xml_url>http://weather.gov/xml/current_obs/TKPN.xml</xml_url>
+    </station>
+
+    <station>
+        <station_name>Blackburne/Plymouth</station_name>
+        <latitude>16.75</latitude>
+        <longitude>-62.167</longitude>
+        <distance>2</distance>
+        <xml_url>http://weather.gov/xml/current_obs/TRPM.xml</xml_url>
+    </station>
+</root>
