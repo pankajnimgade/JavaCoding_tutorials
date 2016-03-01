@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2645d0-78d6-4447-80d9-cbdc8a54238a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorating/object/one/CondimentDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorating/object/one/Milk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorating/object/one/Mocha.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorating/object/one/Soy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorating/object/one/Whip.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorating/object/one/Beverage.java" afterPath="$PROJECT_DIR$/src/decorating/object/one/Beverage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorating/object/one/DarkRoast.java" afterPath="$PROJECT_DIR$/src/decorating/object/one/DarkRoast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorating/object/one/Decaf.java" afterPath="$PROJECT_DIR$/src/decorating/object/one/Decaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorating/object/one/Espresso.java" afterPath="$PROJECT_DIR$/src/decorating/object/one/Espresso.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decorating/object/one/HouseBlend.java" afterPath="$PROJECT_DIR$/src/decorating/object/one/HouseBlend.java" />
     </list>
     <ignored path="JavaCoding_tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,7 +83,7 @@
       <file leaf-file-name="Milk.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/decorating/object/one/Milk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4516129">
+            <state vertical-scroll-proportion="0.4524237">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
@@ -1218,7 +1208,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456772482777</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Decorative patten test One">
+      <created>1456829593642</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1456829593642</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1236,6 +1232,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25040916" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1248,7 +1245,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.50598294" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1294,7 +1290,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated the output for the serialized ArrayList&lt;Station&gt;" />
     <MESSAGE value="duck code" />
     <MESSAGE value="delegating the supper class methods to the interfaces,&#10; &#10; so programming to the interface instead of implementing the interface" />
     <MESSAGE value="TestDrive class to check the MallardDuck type(class)" />
@@ -1319,7 +1314,8 @@
     <MESSAGE value="few changes to the project" />
     <MESSAGE value="sort a collection" />
     <MESSAGE value="Decorative patten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorative patten" />
+    <MESSAGE value="Decorative patten test One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorative patten test One" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1726,7 +1722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorating/object/one/Milk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4516129">
+        <state vertical-scroll-proportion="0.4524237">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
