@@ -83,8 +83,8 @@
       <file leaf-file-name="Milk.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/decorating/object/one/Milk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4524237">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.82405746">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -1214,7 +1214,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456829593642</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Decorative patten test One">
+      <created>1456829634237</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1456829634237</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1722,8 +1728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorating/object/one/Milk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4524237">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.82405746">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />

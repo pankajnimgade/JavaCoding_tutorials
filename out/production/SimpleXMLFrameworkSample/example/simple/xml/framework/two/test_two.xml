@@ -1,0 +1,8 @@
+<configuration id="123">
+   <server port="8080">
+      <host>www.google.com</host>
+      <security ssl="false">
+         <keyStore>My_key_store</keyStore>
+      </security>
+   </server>
+</configuration>
