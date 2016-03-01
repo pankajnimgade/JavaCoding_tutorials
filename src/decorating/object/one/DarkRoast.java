@@ -7,7 +7,7 @@ public class DarkRoast extends Beverage {
 
 
     @Override
-    int getCost() {
+    float getCost() {
         return 0;
     }
 }

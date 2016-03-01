@@ -8,7 +8,7 @@ public abstract class Beverage {
     private String description;
 
 
-    abstract int getCost();
+    abstract float getCost();
 
 
     public String getDescription() {

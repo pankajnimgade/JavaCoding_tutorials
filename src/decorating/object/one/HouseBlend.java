@@ -7,7 +7,7 @@ public class HouseBlend extends Beverage {
 
 
     @Override
-    int getCost() {
+    float getCost() {
         return 0;
     }
 }

@@ -5,7 +5,7 @@ package decorating.object.one;
  */
 public class Decaf extends Beverage {
     @Override
-    int getCost() {
+    float getCost() {
         return 0;
     }
 }

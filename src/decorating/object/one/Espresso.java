@@ -5,7 +5,7 @@ package decorating.object.one;
  */
 public class Espresso extends Beverage {
     @Override
-    int getCost() {
+    float getCost() {
         return 0;
     }
 }
