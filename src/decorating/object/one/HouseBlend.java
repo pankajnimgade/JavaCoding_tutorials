@@ -5,9 +5,12 @@ package decorating.object.one;
  */
 public class HouseBlend extends Beverage {
 
+    public HouseBlend() {
+        setDescription("HouseBlend");
+    }
 
     @Override
     float getCost() {
-        return 0;
+        return 0.75f;
     }
 }

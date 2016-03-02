@@ -5,7 +5,7 @@ package decorating.object.one;
  */
 public abstract class Beverage {
 
-    private String description;
+    private String description = "Unknown Beverage";
 
 
     abstract float getCost();
