@@ -1097,7 +1097,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457064704022</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="check duplicatest in the Arraylist">
+      <created>1457064802714</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1457064802714</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
