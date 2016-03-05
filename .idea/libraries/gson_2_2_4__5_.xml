@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="gson-2.2.4 (5)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ReadSqliteDatabase/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ReadSqliteDatabase/libs/sqlite-jdbc-3.8.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/ReadSqliteDatabase/libs/gson-2.2.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ReadSqliteDatabase/libs/sqlite-jdbc-3.8.11.2.jar!/" />
+    </SOURCES>
+  </library>
+</component>

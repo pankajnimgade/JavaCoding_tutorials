@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCoding_tutorials.iml" filepath="$PROJECT_DIR$/JavaCoding_tutorials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadSqliteDatabase/ReadSqliteDatabase.iml" filepath="$PROJECT_DIR$/ReadSqliteDatabase/ReadSqliteDatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reading_TTC_Excel/Reading_TTC_Excel.iml" filepath="$PROJECT_DIR$/Reading_TTC_Excel/Reading_TTC_Excel.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleXMLFrameworkSample/SimpleXMLFrameworkSample.iml" filepath="$PROJECT_DIR$/SimpleXMLFrameworkSample/SimpleXMLFrameworkSample.iml" />
     </modules>
