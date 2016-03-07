@@ -20,7 +20,7 @@ public class Milk extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription();
+        return this.beverage.getDescription()+", Milk";
     }
 
     public float getMilk_price_integer() {

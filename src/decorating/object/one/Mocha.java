@@ -20,7 +20,7 @@ public class Mocha extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription();
+        return this.beverage.getDescription()+", Mocha";
     }
 
     public float getMocha_price_integer() {

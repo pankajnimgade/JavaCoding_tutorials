@@ -1,7 +1,7 @@
 package decorating.object.one;
 
 /**
- * Created by Pankaj Nimgade on 01-03-2016.
+ * Whip extends {@link decorating.object.one.CondimentDecorator CondimentDecorator}
  */
 public class Whip extends CondimentDecorator {
 
@@ -20,7 +20,7 @@ public class Whip extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription();
+        return this.beverage.getDescription()+", Whip";
     }
 
     public float getWhip_price_integer() {

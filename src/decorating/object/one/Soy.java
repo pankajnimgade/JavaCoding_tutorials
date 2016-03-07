@@ -20,7 +20,7 @@ public class Soy extends CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription();
+        return this.beverage.getDescription()+", Soy";
     }
 
     public float getSoy_price_integer() {
